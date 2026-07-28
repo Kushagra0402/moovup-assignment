@@ -1,0 +1,19 @@
+#Installed packages
+node_modules/
+
+#TS build object
+dist/
+
+#env files
+.env
+.env.*
+!.env.example
+
+#Test coverage
+coverage/
+
+#TS build info
+*.tsbuildinfo
+
+#macOS
+.DS_Store
